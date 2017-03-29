@@ -145,9 +145,16 @@ label {
   background-repeat: no-repeat;
 }
 
+#heart:hover {
+  background-image: url('images/favorite-active.svg');
+}
+
 #trash {
-  /*margin-left: 7px;*/
   background-image: url('images/delete.svg');
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+#trash:hover {
+  background-image: url('images/delete-active.svg');
 }
