@@ -102,9 +102,10 @@ label {
 }
 
 .single-card {
+  position: relative;
   display: inline-block;
-  width: 220px;
-  height: 310px;
+  width: 245px;
+  height: 335px;
   background-color: #FFF;
   border: 2px solid #938284;
   text-align: left;
@@ -113,49 +114,43 @@ label {
 /*Caption not accepting formats?*/
 /*what is this for? can we srhink this?*/
 .single-card h2, .single-card p {
+  margin: 8px 12px;
   color: #3E2A35;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
 }
 
-.card-title {
-  border: 2px solid #FFF;
-  background-color: #FFF;
-  margin: 2px 0px;
-  float: left;
-  padding: 5px 0px 5px 5px;
-}
-
 .card-photo {
-  width: 216px;
-  height: 133px;
-}
-
-.card-caption {
-  height: 75px;
-  margin: 0px;
-  padding: 5px 0px 5px 5px;
+  width: 241px;
+  height: 142px;
 }
 
 .card-footer {
-  margin: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 276px;
+  width: 241px;
   height: 55px;
   background-color: #5B4447;
-  padding: 5px 0px 5px 5px;
+  padding: 12px;
 }
 
-.card-icon {
-  width: 30px;
-  padding-top: 7px;
+.card-icons {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
 }
 
 #heart {
-  /*float:right;
-  margin-right: 11px;*/
+  float:right;
   background-image: url('images/favorite.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #trash {
   /*margin-left: 7px;*/
   background-image: url('images/delete.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
