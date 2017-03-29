@@ -17,7 +17,7 @@ body {
 
 h1 {
   display: inline;
-  font-size: 74px;
+  font-size: 70px;
   letter-spacing: 5px;
 }
 
@@ -94,16 +94,15 @@ label {
   z-index: -1;
 }
 
-/*https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/*/
-
-
 .cards {
-  padding: 40px 70px;
+  padding: 40px 66px;
 }
 
 .single-card {
   position: relative;
   display: inline-block;
+  float: left;
+  margin: 20px;
   width: 245px;
   height: 335px;
   background-color: #FFF;
@@ -111,8 +110,6 @@ label {
   text-align: left;
 }
 
-/*Caption not accepting formats?*/
-/*what is this for? can we srhink this?*/
 .single-card h2, .single-card p {
   margin: 8px 12px;
   color: #3E2A35;
@@ -121,12 +118,12 @@ label {
 }
 
 .card-photo {
+  object-fit: cover;
   width: 241px;
   height: 142px;
 }
 
 .card-footer {
-  object-fit: cover;
   position: absolute;
   top: 276px;
   width: 241px;
