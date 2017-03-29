@@ -12,3 +12,10 @@ $('#add').click(function() {
     </div> \
   </div>" )
 });
+
+function trashIt (event) {
+  var target = $(event.target);
+  if (target.is('#trash')) {
+    $('.single-card').remove();
+  }
+}
