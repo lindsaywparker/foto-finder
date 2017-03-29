@@ -6,9 +6,9 @@ $('#add').click(function() {
     <h2 class='card-title'>" + $inputTitle + "</h2> \
     <img src='" + $filename + "' class='card-photo'/> \
     <p class='card-caption'>" + $inputCaption + "</p> \
-    <p class='card-footer'> \
-      <div id='trash'></div> \
-      <div id='heart'></div> \
-    </p> \
+    <div class='card-footer'> \
+      <div class='card-icons' id='trash'></div> \
+      <div class='card-icons' id='heart'></div> \
+    </div> \
   </div>" )
 });
