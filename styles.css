@@ -47,18 +47,20 @@ label {
 }
 
 .input-label {
-  color: #938284;
-  font-size: 21px;
   display: inline-block;
   float: left;
   margin: 10px 0px;
+  color: #938284;
+  font-size: 21px;
 }
 
 #input-title, #input-caption {
   display: block;
+  padding: 0 10px;
   margin: auto;
   width: 605px;
   height: 54px;
+  font-size: 21px;
 }
 
 .button {
@@ -100,6 +102,7 @@ label {
 }
 
 .single-card {
+  display: inline-block;
   width: 220px;
   height: 310px;
   background-color: #FFF;
@@ -147,10 +150,12 @@ label {
 }
 
 #heart {
-  float:right;
-  margin-right: 11px;
+  /*float:right;
+  margin-right: 11px;*/
+  background-image: url('images/favorite.svg');
 }
 
 #trash {
-  margin-left: 7px;
+  /*margin-left: 7px;*/
+  background-image: url('images/delete.svg');
 }
