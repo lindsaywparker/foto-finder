@@ -138,16 +138,21 @@ label {
   height: 33px;
 }
 
-#heart {
+.heart {
   float:right;
   background-image: url('images/favorite.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-#heart:hover {
+.heart-active {
   background-image: url('images/favorite-active.svg');
 }
+
+.heart:hover {
+  background-image: url('images/favorite-active.svg');
+}
+
 
 #trash {
   background-image: url('images/delete.svg');
