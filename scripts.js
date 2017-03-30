@@ -1,3 +1,21 @@
+function checkContents() {
+  if ($('#input-title').val() !== "" && $('#input-caption').val() !== "" && $('#choose').val() !== "") {
+    $('#add').prop('disabled', false);
+  }
+}
+
+$('#input-title').keyup(function () {
+  checkContents();
+});
+
+$('#input-caption').keyup(function () {
+  checkContents();
+});
+
+$('#choose').change(function () {
+  checkContents();
+});
+
 $('#add').click(function() {
     var inputTitle = $('#input-title').val();
     var inputCaption = $('#input-caption').val();
@@ -26,47 +44,4 @@ $('#add').click(function() {
     $('#input-caption').val('');
     $('#choose').val('');
     $('#add').prop('disabled', true);
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function checkContents() {
-  if ($('#input-title').val() !== "" && $('#input-caption').val() !== "" && $('#choose').val() !== "") {
-    $('#add').prop('disabled', false);
-  }
-}
-
-$('#input-title').keyup(function () {
-  checkContents();
-});
-
-$('#input-caption').keyup(function () {
-  checkContents();
-});
-
-$('#choose').change(function () {
-  checkContents();
 });
