@@ -39,7 +39,6 @@ header, .inputs {
   height: 250px;
   width: 606px;
   margin: auto;
-
 }
 
 label {
@@ -162,4 +161,73 @@ label {
 
 #trash:hover {
   background-image: url('images/delete-active.svg');
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  header {
+    height: 255px;
+  }
+
+  #input-title, #input-caption {
+    clear: both;
+    float: none;
+    padding: 0 2px;
+    margin: 5px auto;
+    width: 280px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .logo {
+    margin: 0;
+    height: 18px;
+  }
+
+  .input-label {
+    float: left;
+    margin: 10px auto 4px auto;
+    color: #938284;
+    font-size: 13px;
+  }
+
+  .inputs {
+    height: 200px;
+    width: 280px;
+    margin: auto;
+  }
+
+  .button {
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 30px 0px;
+  }
+
+  .cards {
+    padding: 10px;
+  }
+
+  .single-card {
+    float: left;
+    margin: 8px 26px;
+  }
+}
+
+
+@media screen and (min-width: 3000px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
