@@ -13,11 +13,23 @@ $('#add').click(function() {
       </div> \
     </div>");
 
-    $('.heart').click(function() {
-      $(this).toggleClass('heart-active');
-    });
+//practice-group
+    // $('.heart').click(function() {
+    //   $(this).toggleClass('heart-active');
+    // });
 
-    $('#trash').click(function() {
-        $(this).parent().parent().remove();
-    });
-});
+//practice solo
+    $('.heart').click(function() {
+      $('.heart').removeClass('')
+
+//example
+//     $('a.btn').click(function(){
+//   $("a.btn").removeClass("active focus");
+//   $(this).toggleClass("active");
+// });
+
+// TRASH REMOVAL
+//     $('#trash').click(function() {
+//         $(this).parent().parent().remove();
+//     });
+// });
