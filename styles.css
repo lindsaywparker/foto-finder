@@ -164,7 +164,6 @@ label {
   background-image: url('images/favorite-active.svg');
 }
 
-
 #trash {
   background-image: url('images/delete.svg');
   background-size: contain;
@@ -236,7 +235,6 @@ label {
     margin: 8px 26px;
   }
 }
-
 
 @media screen and (min-width: 3000px) {
   header {
