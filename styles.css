@@ -214,12 +214,17 @@ label {
   }
 
   .button {
+    padding: 9px;
     width: 130px;
     height: 35px;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin: 30px 0px;
+    margin: 21px 0px;
+  }
+
+  #add {
+    margin-left: 15px;
   }
 
   .cards {
