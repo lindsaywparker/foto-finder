@@ -13,20 +13,10 @@ $('#add').click(function() {
       </div> \
     </div>");
 
-//practice-group
-    // $('.heart').click(function() {
-    //   $(this).toggleClass('heart-active');
-    // });
-
-//practice solo
     $('.heart').click(function() {
-      $('.heart').removeClass('')
-
-//example
-//     $('a.btn').click(function(){
-//   $("a.btn").removeClass("active focus");
-//   $(this).toggleClass("active");
-// });
+        $(this).toggleClass('heart-active');
+        $(this).parent().parent().toggleClass('pink-background');
+    });
 
     $('#trash').click(function() {
         $(this).parent().parent().remove();

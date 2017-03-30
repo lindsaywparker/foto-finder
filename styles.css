@@ -124,6 +124,10 @@ label {
   font-weight: lighter;
 }
 
+.pink-background {
+  background-color: #E26D5A;
+}
+
 .card-photo {
   object-fit: cover;
   width: 241px;
