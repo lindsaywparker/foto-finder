@@ -13,7 +13,7 @@ $('#add').click(function() {
       </div> \
     </div>");
 
-    //practice solo
+    //favoriting
     $('.heart').click(function() {
         $(this).toggleClass('heart-active');
         $(this).parent().parent().toggleClass('pink-background');
