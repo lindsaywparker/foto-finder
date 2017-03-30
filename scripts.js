@@ -20,4 +20,52 @@ $('#add').click(function() {
     $('#trash').click(function() {
         $(this).parent().parent().remove();
     });
+
+    $('#input-title').val('');
+    $('#input-caption').val('');
+    $('#choose').val('');
+    $('#add').prop('disabled', true);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function checkContents() {
+  if ($('#input-title').val() !== "" && $('#input-caption').val() !== "" && $('#choose').val() !== "") {
+    $('#add').prop('disabled', false);
+  }
+}
+
+$('#input-title').keyup(function () {
+  checkContents();
+});
+
+$('#input-caption').keyup(function () {
+  checkContents();
+});
+
+$('#choose').change(function () {
+  checkContents();
 });
